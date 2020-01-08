@@ -49,3 +49,15 @@ To evaluate the model for 20-shot on Letter-High datasets run -
 The other parameters are same for both the datasets and are already set to their default values.
 
 The `src/checkpoints` directory stores the trained weights for the model. Run the bash file `clear_checkpoints.sh` to clear existing checkpoints. The `dataloader.py` file contains the class for loading data and creating splits for fine-tuning as well as testing. The base code for the files `graphcnn.py`, `mlp.py` and `util.py` have been taken from the original implementation of the [GIN paper](https://github.com/weihua916/powerful-gnns) and further modified for our purpose. 
+
+## Citation
+
+Please cite the following paper if you use this code in your work.
+`@inproceedings{
+chauhan2020fewshot,
+title={{\{}FEW{\}}-{\{}SHOT{\}} {\{}LEARNING{\}} {\{}ON{\}} {\{}GRAPHS{\}} {\{}VIA{\}} {\{}SUPER{\}}-{\{}CLASSES{\}} {\{}BASED{\}} {\{}ON{\}} {\{}GRAPH{\}} {\{}SPECTRAL{\}} {\{}MEASURES{\}}},
+author={Jatin Chauhan and Deepak Nathani and Manohar Kaul},
+booktitle={International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=Bkeeca4Kvr}
+}`
