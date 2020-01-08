@@ -53,11 +53,17 @@ The `src/checkpoints` directory stores the trained weights for the model. Run th
 ## Citation
 
 Please cite the following paper if you use this code in your work.
-`@inproceedings{
-chauhan2020fewshot,
-title={{\{}FEW{\}}-{\{}SHOT{\}} {\{}LEARNING{\}} {\{}ON{\}} {\{}GRAPHS{\}} {\{}VIA{\}} {\{}SUPER{\}}-{\{}CLASSES{\}} {\{}BASED{\}} {\{}ON{\}} {\{}GRAPH{\}} {\{}SPECTRAL{\}} {\{}MEASURES{\}}},
+`
+@inproceedings{chauhan2020fewshot,
+
+title=FEW-SHOT LEARNING ON GRAPHS VIA SUPER-CLASSES BASED ON GRAPH SPECTRAL MEASURES,
+
 author={Jatin Chauhan and Deepak Nathani and Manohar Kaul},
+
 booktitle={International Conference on Learning Representations},
+
 year={2020},
+
 url={https://openreview.net/forum?id=Bkeeca4Kvr}
-}`
+}
+`
