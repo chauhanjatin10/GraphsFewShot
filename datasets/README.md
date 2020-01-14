@@ -1,0 +1,4 @@
+### Structure
+
+The file 'make_class_prototypes.py' contains the code to generate class prototype graphs via graph spectral measure.
+Inside each folder, the txt files contains the entire dataset with the following structure - first line contains the total number of graphs(N) in the dataset. The following lines contain the information corresponding to each graph starting with the number of nodes in the graph(m) and its target class. The following m lines begin with the node target label, then the number of neighbors of the node and its neighboring vertex numbers. The nodes are indexed with 0. Thus i-th line contains the details for node i. 
