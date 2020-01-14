@@ -51,6 +51,8 @@ def create_prototypes(dataset_name):
 				a = current_class_eigvals[i]
 				b = current_class_eigvals[j]
 				cost = ot.utils.dist( np.reshape(a, (a.shape[0], 1)), np.reshape(b, (b.shape[0], 1)) )
+				# Uniform distribution has been assumed over the spectra for faster implementation. One can first use density estimation
+				# to approximate the distribution which can provide better results. 
 				loss = ot.emd2([], [], cost)
 				current_dist.append(loss)
 			all_dist.append(current_dist)

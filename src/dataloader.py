@@ -116,6 +116,8 @@ class Dataset:
 			all_dist.append(current_dist)
 		kernel_matrix = np.array(all_dist)
 
+		# This is used as an approximation with the Lloyd's variant proposed in the paper. Well intergrated with the scikit-learn
+		# library, its assures better implementation and was thus used in the final version.
 		clustering_super_class = AgglomerativeClustering(n_clusters=self.num_clusters["train"], 
 					affinity="precomputed", linkage="complete").fit(kernel_matrix)
 
