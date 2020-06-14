@@ -44,6 +44,8 @@ To evaluate the model for 20-shot on TRIANGLES datasets run -
 
 `python3 main.py --dataset_name TRIANGLES --batch_size 64 --knn_value 2`
 
+An example usage for the above has been provided in the jupyter notebook: [src/example.ipynb](https://github.com/chauhanjatin10/GraphsFewShot/tree/master/src) .
+
 The `src/checkpoints` directory stores the trained weights for the model. Run the bash file `clear_checkpoints.sh` to clear existing checkpoints. The `dataloader.py` file contains the class for loading data and creating splits for fine-tuning as well as testing. The base code for the files `graphcnn.py`, `mlp.py` and `util.py` have been taken from the original implementation of the [GIN paper](https://github.com/weihua916/powerful-gnns) and further modified for our purpose. 
 
 ## Citation
