@@ -1,7 +1,7 @@
 boto==2.49.0
 boto3==1.9.201
 botocore==1.12.201
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 Click==7.0
