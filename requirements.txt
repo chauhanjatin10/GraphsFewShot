@@ -58,4 +58,4 @@ torch-sparse==0.4.0
 torchvision==0.2.1
 tqdm==4.32.2
 urllib3==1.26.5
-Werkzeug==0.15.5
+Werkzeug==2.2.3
